@@ -2,7 +2,10 @@
 
 This is a quiz website based on javascript
 
-how to contribute
+You can run the website by just opening the index.html into the browser
 
-1.You can add questions in the website
-2.You can add new features to the website
+You can also contribute to the website by
+
+
+1.adding questions in the question.js file
+2.adding new features to the website
