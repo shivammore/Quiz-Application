@@ -77,11 +77,10 @@ function showScores() {
 
 // create questions here
 var questions = [
-    new Question("Is Python case sensitive when dealing with identifiers?", ["yes", "no","machine dependent", "none of the mentioned"], "yes"),
-    new Question("What is the maximum possible length of an identifier?", ["31 characters", "63 characters", "79 characters", "none of the mentioned"], "none of the mentioned"),
-    new Question("Which of the following is invalid?", ["_a = 1", "__a = 1","__str__ = 1", "none of the mentioned"], "none of the mentioned"),
-    new Question("Which of the following is an invalid variable?", ["my_string_1", "1st_string", "foo", "_"], "1st_string"),
-    new Question("Why are local variable names beginning with an underscore discouraged?", ["they are used to indicate a private variables of a class", "they confuse the interpreter", "they are used to indicate global variables", " they slow down execution"], "they are used to indicate a private variables of a class")
+    new Question("Cycles is the name of the new ......", ["Painting tool", "Render engine","Camera tracker", "Sculpting tool"], "Render engine"),
+    new Question("Sergey Sharybin is working on a new ......", ["Game engine", "Sculpting tool", "Camera tracking tool", "Render engine"], "Camera tracking tool"),
+    new Question("Which is the following is not a GSoC11 project?", ["Bean", "Garlic","Onion", "Tomato"], "Bean"),
+    new Question("Miika Hämäläinen is working on improving his ......", ["Sculpting tool", "Animation tool", "Game engine project", "Dynamic paint tool"], "Dynamic paint tool")
 ];
 
 // create quiz
